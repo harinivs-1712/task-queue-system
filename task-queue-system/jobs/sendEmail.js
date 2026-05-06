@@ -22,7 +22,7 @@ async function sendEmail(payload) {
     console.log("Sending email to:", payload.to);
 
     const info = await transporter.sendMail({
-        from: `"Credit Score Sense" <${process.env.EMAIL_USER}>`,
+        from: `<${process.env.EMAIL_USER}>`,
         to: payload.to,
         subject: payload.subject,
         html: payload.html

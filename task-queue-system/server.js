@@ -10,34 +10,7 @@ const upload = multer({ dest: "uploads/" });
 const emailBody = `<div style="font-family: Georgia, serif; font-size: 14px; line-height: 1.4; color: #000;">
 
 <p>Respected Sir/Madam,</p>
-
-<p>
-I am <strong>Rahul S</strong>, founder of <strong>Credit Score Sense</strong>.
-We provide consulting and dispute resolution/settlement services (to improve credit score)
-for credit information companies such as
-<strong>CIBIL, CRIF, EXPERIAN, and EQUIFAX</strong> across India.
-</p>
-
-<p>
-We will resolve any issues your client may be experiencing with these credit information
-companies, including settlements, guarantees, or any other problems.
-</p>
-
-<p>
-If you would like more information, please call us at
-<strong>+91 9019359721</strong>. We would appreciate it if you shared our
-contact number with your clients.
-</p>
-
-<p>
-In our company, cybersecurity is a top priority, and we never request an OTP.
-</p>
-
-<p>Thank you.<br>
-Rahul S<br>
-<strong>Call or WhatsApp +91 9019359721</strong>
-</p>
-
+<div>Welcome to Task Queue System</div>
 </div>`;
 
 const express = require('express');
